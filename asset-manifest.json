@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SchoolInformation/static/css/main.88be7169.css",
-    "main.js": "/SchoolInformation/static/js/main.e022b791.js",
+    "main.js": "/SchoolInformation/static/js/main.dfd04dfd.js",
     "index.html": "/SchoolInformation/index.html",
     "main.88be7169.css.map": "/SchoolInformation/static/css/main.88be7169.css.map",
-    "main.e022b791.js.map": "/SchoolInformation/static/js/main.e022b791.js.map"
+    "main.dfd04dfd.js.map": "/SchoolInformation/static/js/main.dfd04dfd.js.map"
   },
   "entrypoints": [
     "static/css/main.88be7169.css",
-    "static/js/main.e022b791.js"
+    "static/js/main.dfd04dfd.js"
   ]
 }
