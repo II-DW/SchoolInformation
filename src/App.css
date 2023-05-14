@@ -1,0 +1,58 @@
+*::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing : border-box;
+}
+
+.MainPage {
+    background-color: #F1F7B5;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Box{
+    height: 40rem;
+    width: 35rem;
+    background-color: #FD8A8A;
+    border-radius: 2rem;
+    margin: 6rem;
+    overflow: hidden;
+    text-align: center;
+    border: solid 0.1rem;
+    border-color: #9EA1D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    white-space: pre-wrap;
+    font-size: 0.5rem;
+}
+
+@media (max-width: 800px) {
+    .Box {
+        height: 100rem;
+        width: 50rem;
+        border-radius: 5vw;
+        margin: 6vw;
+        overflow: hidden;
+        text-align: center;
+    }
+    .MainPage {
+        flex-flow: column;
+    }
+  }
+
+
+.Box_title {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #D21312;
+}
