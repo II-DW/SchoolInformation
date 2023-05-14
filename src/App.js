@@ -9,7 +9,6 @@ function App() {
     let year = today.getFullYear(); // 년도
     let month = today.getMonth() + 1;  // 월
     let date = today.getDate();  // 날짜W
-    let day = today.getDay()
     
     const Api_key = process.env.REACT_APP_API_KEY;
 
@@ -30,13 +29,13 @@ function App() {
     useEffect(() => {
         fetchData();
         fetchData2();
-    }, []);
+    }, );
 
     return (
         
         
         <div className='MainPage'>
-
+            
             <div className='Box'>
                 <span className='Box_title'> 시간표 </span> <br />
                 {year.toString() + "년 " + month.toString().padStart(2, "0") + "월 " + (date).toString().padStart(2, "0") + "일"} <br /> <br /> 
@@ -65,7 +64,10 @@ function App() {
             </div>
             <div className='Box'>
                 <span className='Box_title'> 공지사항 </span> <br /> <br />
-                개발 중에 있습니다.
+                공지사항과 관련된 내용은 아직 개발 중에 있습니다.
+                <br /> <br />
+                대건고 기출 문제 모음 사이트 : <a href='http://exam.ssunny.me'>exam.ssunny.me 바로가기 </a> 
+                수2 형성평가 답지 모음 사이트 : <a href='https://ii-dw.github.io/Math-Answer/'>https://ii-dw.github.io/Math-Answer/ 바로가기</a>
             </div>
         </div>
     );
