@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SchoolInformation/static/css/main.88be7169.css",
+    "main.js": "/SchoolInformation/static/js/main.e022b791.js",
+    "index.html": "/SchoolInformation/index.html",
+    "main.88be7169.css.map": "/SchoolInformation/static/css/main.88be7169.css.map",
+    "main.e022b791.js.map": "/SchoolInformation/static/js/main.e022b791.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88be7169.css",
+    "static/js/main.e022b791.js"
+  ]
+}
