@@ -49,6 +49,7 @@
     }
     .MainPage {
         height: auto;
+        min-height: 100vh;
         flex-flow: column;
     }
   }
