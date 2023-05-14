@@ -37,14 +37,18 @@
 
 @media (max-width: 800px) {
     .Box {
-        height: 100rem;
-        width: 50rem;
-        border-radius: 5vw;
-        margin: 6vw;
+        height: auto;
+        width: 100%;
+        border-radius: 1rem;
+        padding: 0;
+        border: 0;
+        margin: 1rem;
         overflow: hidden;
         text-align: center;
+        font-size: 0.3rem;
     }
     .MainPage {
+        height: auto;
         flex-flow: column;
     }
   }
